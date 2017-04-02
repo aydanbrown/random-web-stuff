@@ -1,0 +1,36 @@
+html, body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+#popup {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+#popup-window {
+	background-color: #fff;
+	width: calc(90% - 20px);
+	height: calc(90% - 20px);
+	padding: 10px;
+	position: absolute;
+	left: 5%;
+	top: 5%;
+	overflow: scroll;
+}
+
+#popup-exit-button {
+	background-color: none;
+	padding: 10px;
+	border: 2px solid black;
+}
+
+.hide {
+	display: none;
+}
+
